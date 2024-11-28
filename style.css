@@ -1,4 +1,9 @@
 /* Global Styles */
+* {
+  box-sizing: border-box; /*prevent page overflow*/
+}
+
+
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
@@ -7,6 +12,7 @@ body {
   color: #343a40;
   background: #ffffff;
 }
+
 a {
   text-decoration: none;
   color: inherit;
@@ -27,7 +33,7 @@ h1, h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  height: 95px;
   width: 100%;
   padding: 1rem 2rem;
   background: #ffffff;
@@ -117,7 +123,7 @@ h1, h2 {
 }
 
 .profile-card {
-  background: #e9ecef;
+  background: #dee2e6;
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.2);
   border-radius: 0px;
   padding: 1.5rem;
@@ -219,10 +225,12 @@ h1, h2 {
 
 .buttons .btn {
   display: inline-block;
+  text-align: center;
   padding: 0.1rem 2rem;
   margin-right: 0.5rem;
   border-radius: 30px;
   font-weight: bold;
+  width: 140px;
   transition: background 0.3s, color 0.3s;
 }
 
@@ -256,7 +264,7 @@ h1, h2 {
 /* Footer Section */
 .footer {
   background: #ffffff;
-  height: 70px;
+  height: 50px;
 }
 
 /* Container to wrap footer content */
@@ -313,6 +321,25 @@ h1, h2 {
   transform: scale(1.2);
 }
 
+/* Designer Credit Section */
+.designer-credit {
+  opacity: 0.7;
+  text-align: center;
+  padding: 0 auto;
+  margin-bottom: 0;
+  background: #ffffff;
+  font-size: 0.7rem;
+  color: #a6a8aa;
+}
+
+.designer-credit .designer-name {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  margin: 0px 5px;
+}
+
 
 /* Responsive Design */
 /* Phone 939*/
@@ -358,20 +385,7 @@ h1, h2 {
     flex-direction: column;
     width: 100%;
   }
-  /*
-  .intro-left,
-  .intro-right {
-    width: 100%;
-  }
-
-  .intro-left {
-    background: #ffffff;
-  }
-
-  .intro-right {
-    background: #166cc2;
-  }
-  */  
+   
   .profile-card {
     margin: 0.5rem auto; /* Center the profile card */
   }
