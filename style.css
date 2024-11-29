@@ -628,6 +628,22 @@ h1, h2 {
     gap: 1rem;
   }
 
+  .projects{
+    padding: 2rem;
+  }
+
+  .project-container {
+    flex-direction: column; /* Stack cards vertically on mobile */
+    align-items: center; /* Center the cards */
+    padding: 10px;
+    margin: 0;
+  }
+    
+  .project-card {
+    width: 100%;
+    margin-bottom: 1.5rem; /* Space between the stacked cards */
+  }
+
 }
 
 /* Desktop */
