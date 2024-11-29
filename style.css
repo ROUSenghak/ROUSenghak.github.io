@@ -263,10 +263,8 @@ h1, h2 {
 }
 
 /* resume section */
-
 .resume {
   background-color: #CED4DA;
-  /* padding: 200px; */
   padding: 40px;
 }
 
@@ -277,7 +275,6 @@ h1, h2 {
   padding: 20px;
   background: #CED4DA;
   margin-top: 10px;
-  /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
 }
 
 .section-title {
@@ -318,7 +315,6 @@ h1, h2 {
 
 .section-title {
   font-size: 1.5rem;
-  /* margin: 20px 0; */
   margin: 0;
   color: #343a40;
 }
@@ -330,7 +326,6 @@ h1, h2 {
   background: #ffffff;
   padding: 50px;
   margin: 20px 0;
-  /* border-radius: 8px; */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -457,23 +452,17 @@ h1, h2 {
   width: 100%;
   padding: 40px;
   box-sizing: border-box;
-  /* background: linear-gradient(to bottom, #CED4DA 0%, #CED4DA 40%, #FFFFFF 40%, #FFFFFF 100%); */
   background: #CED4DA;
 }
 
-/* .projects h1{
-  color: #ffffff;
-} */
-
-/* Project Intro Section */
 .project-intro {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
   background: #CED4DA;
+  width: 100%;
   margin-top: 0px;
-  /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
 }
 
 .project-title {
@@ -482,40 +471,35 @@ h1, h2 {
   text-transform: uppercase;
 }
 
-
 .project-container {
-  display: flex; /* Use flexbox for the row layout */
-  justify-content: space-between; /* Spread the cards evenly */
-  gap: 1.5rem; /* Space between the cards */
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
   margin-top: 2rem;
-  background-color: #CED4DA; /* White background for the container */
+  background-color: #CED4DA;
   padding: 2rem;
-  flex-wrap: wrap; /* Allow wrapping if screen size is small */
+  flex-wrap: wrap;
 }
 
-/* Individual Project Cards */
-  .project-card {
-  background-color: #ffffff; /* White background for cards */
-  /* border: 1px solid #dee2e6; */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow to make the card pop */
+.project-card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 30%; /* Card width for 3 cards per row, if 2 use 45% */
   height: 30rem;
   padding: 1.5rem;
   text-align: center;
   transition: transform 0.2s, box-shadow 0.2s;
-  }
+}
 
-  /* Card Heading */
-  .project-card h1 {
-      font-size: 1.5rem;
-      color: #495057; /* Dark text for headings */
-  }
+.project-card h1 {
+  font-size: 1.5rem;
+  color: #495057;
+}
 
-  /* Hover Effects */
-  .project-card:hover {
-  transform: translateY(-10px); /* Slight lift effect */
+.project-card:hover {
+  transform: translateY(-10px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
-  }
+}
 
 
 
@@ -524,7 +508,6 @@ h1, h2 {
 /* Phone 939*/
 @media screen and (max-width: 939px) {
   /* resume */
-
   .resume{
     padding: 2rem;
   }
@@ -633,15 +616,15 @@ h1, h2 {
   }
 
   .project-container {
-    flex-direction: column; /* Stack cards vertically on mobile */
-    align-items: center; /* Center the cards */
+    flex-direction: column;
+    align-items: center;
     padding: 10px;
     margin: 0;
   }
     
   .project-card {
     width: 100%;
-    margin-bottom: 1.5rem; /* Space between the stacked cards */
+    margin-bottom: 1.5rem;
   }
 
 }
