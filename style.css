@@ -285,11 +285,11 @@ h1, h2 {
 }
 
 .resume-title {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .download-btn {
-  padding: 0.25rem 1.5rem;
+  padding: 0.25rem 1.1rem;
   font-size: 1rem;
   line-height: 1.6;
   font-weight: bold;
