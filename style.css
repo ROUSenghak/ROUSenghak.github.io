@@ -272,7 +272,7 @@ h1, h2 {
 /* resume section */
 .resume {
   background-color: #CED4DA;
-  padding: 150px;
+  padding: var(--padding-large);
 }
 
 .resume-intro {
