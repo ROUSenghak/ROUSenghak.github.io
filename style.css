@@ -6,6 +6,7 @@
 }
 html {
   scroll-behavior: smooth;
+  font-size: 100%; 
 }
 
 body {
@@ -265,7 +266,7 @@ h1, h2 {
 /* resume section */
 .resume {
   background-color: #CED4DA;
-  padding: 40px;
+  padding: 150px;
 }
 
 .resume-intro {
@@ -450,7 +451,7 @@ h1, h2 {
 /* Project Page */ 
 .projects{
   width: 100%;
-  padding: 40px;
+  padding: 150px;
   box-sizing: border-box;
   background: #CED4DA;
 }
@@ -484,7 +485,7 @@ h1, h2 {
 .project-card {
   background-color: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 30%; /* Card width for 3 cards per row, if 2 use 45% */
+  width: 46%; /* Card width for 3 cards per row, if 2 use 45% */
   height: 30rem;
   padding: 1.5rem;
   text-align: center;
@@ -505,8 +506,139 @@ h1, h2 {
 
 
 /* Responsive Design */
-/* Phone 939*/
+/* tablet 939*/
 @media screen and (max-width: 939px) {
+
+  
+  /* resume */
+  .resume{
+    padding: 2rem;
+  }
+
+  .job-card {
+    flex-direction: column;
+  }
+
+  .job-info, .job-description {
+    width: 100%;
+  }
+
+  .job-info {
+    margin-bottom: 10px;
+  }
+    
+  /* header */
+  .header{
+    width: 100%;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .nav.active {
+    display: flex;
+  }
+
+  .nav_list {
+    flex-direction: column;
+  }
+
+  .nav_item {
+    margin: 1rem 0;
+  }
+
+  .nav_link {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+
+  .intro {
+    background: linear-gradient(to bottom, #CED4DA 0%, #CED4DA 40%, #FFFFFF 40%, #FFFFFF 100%); /* Vertical split */
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+  }
+   
+  .profile-card {
+    margin: 0.5rem auto;
+  }
+
+  .intro-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  .intro-text h1 {
+    font-size: 2rem;
+    margin-bottom: 0rem;
+  }
+
+  .intro-text p {
+    font-size: 1rem;
+    line-height: 1.4;
+    text-align: left;
+    margin-bottom:0px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .buttons .btn {
+    margin: 0.5rem;
+  }
+  
+  .footer-nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .projects{
+    padding: 2rem;
+  }
+
+  .project-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+  }
+    
+  .project-card {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+}
+
+
+/* phone*/
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 90%;
+  }
+  
   /* resume */
   .resume{
     padding: 2rem;
