@@ -135,7 +135,7 @@ h1, h2 {
 }
 
 .profile-card {
-  background: #e5e7ea;
+  background: #dee2e6;
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.2);
   border-radius: 0px;
   padding: 1.5rem;
@@ -272,7 +272,7 @@ h1, h2 {
 /* resume section */
 .resume {
   background-color: #CED4DA;
-  padding: var(--padding-large);
+  padding: 150px;
 }
 
 .resume-intro {
