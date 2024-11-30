@@ -480,27 +480,43 @@ h1, h2 {
 
 .project-container {
   display: flex;
-  justify-content: space-between;
   gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
   margin-top: 2rem;
+  height: 100%;
   background-color: #CED4DA;
-  padding: 2rem;
   flex-wrap: wrap;
 }
 
 .project-card {
   background-color: #ffffff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 46%; /* Card width for 3 cards per row, if 2 use 45% */
-  height: 30rem;
-  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  width: 400px;
+  height: 450px;
   text-align: center;
   transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+  margin-bottom: 10px;
 }
 
-.project-card h1 {
-  font-size: 1.5rem;
-  color: #495057;
+.image img {
+  border-radius: 0;
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  object-fit: cover;
+}
+
+.info{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #7e3535;
 }
 
 .project-card:hover {
@@ -624,18 +640,6 @@ h1, h2 {
     padding: 2rem;
   }
 
-  .project-container {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    margin: 0;
-  }
-    
-  .project-card {
-    width: 100%;
-    margin-bottom: 1.5rem;
-  }
-
 }
 
 
@@ -753,17 +757,6 @@ h1, h2 {
     padding: 2rem;
   }
 
-  .project-container {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    margin: 0;
-  }
-    
-  .project-card {
-    width: 100%;
-    margin-bottom: 1.5rem;
-  }
 
 }
 
