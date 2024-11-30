@@ -9,6 +9,12 @@ html {
   font-size: 100%; 
 }
 
+:root {
+  --padding-large: 4rem; /* Default for large screens */
+  --padding-medium: 2rem; /* For medium screens */
+  --padding-small: 1rem; /* For small screens */
+}
+
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
@@ -266,7 +272,7 @@ h1, h2 {
 /* resume section */
 .resume {
   background-color: #CED4DA;
-  padding: 150px;
+  padding: var(--padding-large);
 }
 
 .resume-intro {
@@ -451,7 +457,7 @@ h1, h2 {
 /* Project Page */ 
 .projects{
   width: 100%;
-  padding: 150px;
+  padding: var(--padding-large);
   box-sizing: border-box;
   background: #CED4DA;
 }
