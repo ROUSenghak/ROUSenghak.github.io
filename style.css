@@ -128,7 +128,7 @@ h1, h2 {
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  min-height: 80vh;
+  /* min-height: 80vh; */
   width: 100%;
   background: linear-gradient(to right, #CED4DA 0%, #CED4DA 35%, #FFFFFF 35%, #FFFFFF 100%);
   transition: background 0s ease-in-out;
