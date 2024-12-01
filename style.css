@@ -505,7 +505,7 @@ h1, h2 {
   width: 100%;
   height: 300px;
   margin: 0;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .info{
@@ -530,8 +530,6 @@ h1, h2 {
 /* Responsive Design */
 /* tablet 939*/
 @media screen and (max-width: 939px) {
-
-  
   /* resume */
   .resume{
     padding: 2rem;
