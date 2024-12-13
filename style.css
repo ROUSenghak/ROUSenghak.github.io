@@ -623,7 +623,7 @@ h1, h2 {
   color: #acb7c2;
 }
 
-.btn{
+.btn button{
   background-image: linear-gradient(135deg, #343a40 10%, #343a40 100%);
   text-align: center;
   padding: 15px;
@@ -634,7 +634,7 @@ h1, h2 {
   text-transform: uppercase;
 }
 
-.btn:hover{
+.btn button:hover{
   background: #ADB5BD;
 }
 
