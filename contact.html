@@ -44,15 +44,17 @@
     <div class="contact-form">
       <form method="POST" action="https://formspree.io/f/meoqweyz">
         <div class="input-fields">
-            <input type="text" class="input" placeholder="Name">
-            <input type="email" class="input" placeholder="Email Address">
-            <input type="number" class="input" placeholder="Phone">
-            <input type="text" class="input" placeholder="Subject">
+            <input type="text" name="name" class="input" placeholder="Name" required>
+            <input type="email" name="email" class="input" placeholder="Email Address" required>
+            <input type="number" name="phone" class="input" placeholder="Phone" required>
+            <input type="text" name="subject" class="input" placeholder="Subject" required>
         </div>
         <div class="msg">
-            <textarea placeholder="Message"></textarea>
+            <textarea name="message" placeholder="Message" required></textarea>
         </div>
-        <div class="btn">Send</div>
+        <div class="btn">
+          <button type="submit">Send</button>
+        </div>
       </form>
     </div>
   </div>
