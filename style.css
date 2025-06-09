@@ -376,6 +376,12 @@ h1, h2 {
   margin-bottom: 8px;
 }
 
+/*BlOG*/
+.blog {
+  background-color: #CED4DA;
+  padding: var(--padding-large);
+}
+
 
 /* Footer Section */
 .footer {
