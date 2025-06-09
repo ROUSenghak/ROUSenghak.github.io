@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Blog | Senghak ROU</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 <body>
-
-  <!-- Header -->
   <header class="header">
     <div class="logo">
-      <h1><span class="part1">Senghak ROU</span><span class="part2"> / ENSAE Paris</span></h1>
+      <h1>
+        <span class="part1">Senghak ROU</span>
+        <span class="part2"> / ENSAE Paris</span>
+      </h1>
     </div>
-    <div class="menu-toggle" id="menu-toggle"><i class='bx bx-menu'></i></div>
+    <div class="menu-toggle" id="menu-toggle">
+      <i class='bx bx-menu'></i>
+    </div>
     <nav class="nav" id="nav-menu">
       <ul class="nav_list">
         <li class="nav_item"><a href="index.html" class="nav_link">ABOUT ME</a></li>
@@ -24,53 +27,59 @@
         <li class="nav_item"><a href="contact.html" class="nav_link">CONTACT</a></li>
       </ul>
     </nav>
-  </header>
-
-  <!-- Blog Header -->
-  <section class="blog-header">
+  </header>  
+  <script src="script.js"></script>
+    
+  <div class="blog">
+  <section class="blog-intro">
     <div class="container">
       <h1 class="blog-title">Blog</h1>
-      <p class="blog-description">Insights, reflections, and lessons learned on data, economics, and personal growth.</p>
     </div>
   </section>
 
-  <!-- Blog List -->
-  <div class="blog-feed">
-
-    <!-- Blog Card -->
-    <div class="blog-card">
-      <img src="img/book.jpg" alt="Book cover" class="blog-img" />
-      <div class="blog-content">
-        <p class="blog-meta">June 9, 2025 · 2 min read</p>
-        <h2 class="blog-title"><a href="blog-post1.html">Back to Fiction: What I'm Reading This Summer</a></h2>
-        <p class="blog-subtitle">Why reading fiction helps in data thinking and storytelling — and what I learned from it.</p>
-        <div class="blog-footer">
-          <span>18 views</span><span>2 comments</span><span>10 ❤️</span>
-        </div>
+    <!-- Job Card 1 -->
+    <div class="job-card">
+      <div class="job-info">
+        <p class="job-duration">Jul – Aug 2024</p>
+        <p class="job-title">IT Support Intern</p>
+        <p class="job-location">RSL Global Logistics Co., Ltd <br> Phnom Penh, Cambodia</p>
+      </div>
+      <div class="job-description">
+        <p>As part of my formation at ENSAE Paris, I’m completing an Exploratory Internship to gain my first professional experience. At RSL Global Logistics, I provided IT support, troubleshooting technical issues, and ensuring smooth operations.</p>
       </div>
     </div>
 
-    <!-- Add more blog cards below -->
-  </div>
-
-  <!-- Footer -->
-  <footer class="footer">
+  <!-- Footer Section -->
+<footer class="footer">
     <div class="footer-container">
-      <nav class="footer-nav">
-        <div class="footer-item"><span class="footer-title">Call</span><p>0668933288</p></div>
-        <div class="footer-item"><span class="footer-title">Write</span><p>senghak.rou@ensae.fr</p></div>
-        <div class="footer-item"><span class="footer-title">Follow</span>
-          <div class="social-links">
-            <a href="#" target="_blank"><i class='bx bxl-facebook'></i></a>
-            <a href="#" target="_blank"><i class='bx bxl-linkedin'></i></a>
-            <a href="#" target="_blank"><i class='bx bxl-instagram'></i></a>
-          </div>
-        </div>
-      </nav>
+        <nav class="footer-nav">
+            <!-- Call Section -->
+            <div class="footer-item">
+                <span class="footer-title">Call</span>
+                    <p>0668933288</p>
+            </div>
+  
+            <!-- Write Section -->
+            <div class="footer-item">
+                <span class="footer-title">Write</span>
+                    <p>senghak.rou@ensae.fr</p>
+            </div>
+            <!-- Follow Section -->
+            <div class="footer-item">
+                <span class="footer-title">Follow</span>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/G9zuRsWwFN3BDzZJ/?mibextid=LQQJ4d"  target="_blank" style="--i:7"><i class='bx bxl-facebook'></i></a>
+                        <a href="http://www.linkedin.com/in/rousenghak" target="_blank" style="--i:9" ><i class='bx bxl-linkedin' ></i></a>    
+                        <a href="https://www.instagram.com/_betgd/?hl=en" target="_blank" style="--i:8" ><i class='bx bxl-instagram' ></i></a>  
+                    </div>
+            </div>
+        </nav>
     </div>
-    <div class="designer-credit"><p>Designed with love by <span class="designer-name">Senghak ROU</span></p></div>
+  
+    <!-- Designer Credit Section -->
+    <div class="designer-credit">
+      <p>Designed with love by <span class="designer-name">Senghak ROU</span></p>
+    </div>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
